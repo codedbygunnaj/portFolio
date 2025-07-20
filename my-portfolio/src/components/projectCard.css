@@ -1,0 +1,36 @@
+.project-cards-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 320px;
+  max-width: 350px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background-color: #fff;   
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+    background-color: #000;
+    color: whitesmoke;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.github-icon {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
